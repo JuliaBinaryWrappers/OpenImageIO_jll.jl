@@ -1,288 +1,288 @@
 [[OpenImageIO]]
 arch = "aarch64"
-git-tree-sha1 = "7504bbebc5621a53246a152f8a61212a9869fc9e"
+git-tree-sha1 = "4a97f0a4f182b5341a02c192110b8c6ce30d26d1"
 os = "macos"
 
     [[OpenImageIO.download]]
-    sha256 = "1721fd5cf17f3d37b71bc1d6211b39706f3a96ac2a15e801693041796cef4dec"
+    sha256 = "6f41c7668dbf779d85a38eb63002f873915a75c373767b0692c5a947dd558d48"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.aarch64-apple-darwin.tar.gz"
 [[OpenImageIO]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "19635a469b139fc7dd2a909d5514ec366f8e5f97"
+git-tree-sha1 = "f9e976e76883e4a4271b71a7e2c6141036b588d4"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "6ac187edf6f3f2a5e761b149c1eaffc986b00a472f28ea0799644944da9d5f73"
+    sha256 = "676d6825d1e6e07f001355737b9b5af6a1854f75e36dc9a77faf2282ca5c4a71"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.aarch64-linux-gnu-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9621c4165f313a5992811f69521cab86931bae58"
+git-tree-sha1 = "d3e13ea7ed85cd28a816eab14687f5eaf7a0fab2"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "52c7436b3eb9e253401829fac8b40a2a21740264cc7991bd4572e760e6684e23"
+    sha256 = "2a15b3dc2d05e4a0eb03a262ed096bb26794e7c4a03049e8a99caef85b475fcb"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.aarch64-linux-gnu-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "aarch64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "2d4303ca4c57c8be5cdd13dea36bcb51af5f4f91"
+git-tree-sha1 = "6ee3a578a2e8a8e88ece6369c46aeb1421a8cb0a"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "8261c361169c468f23bba68c78b7bd388117c88f48277b42017f0dea23e4126f"
+    sha256 = "19349028be5771513837d83cbf6a644c1ce59cbca0e45069214297f4bd99bd15"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.aarch64-linux-musl-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "dc9e83897edb147bda8960946aa580eb347a0164"
+git-tree-sha1 = "33cf94011415280e596349ac03726463c0e7ba36"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "cb59047a2bdd9a08cc867388c0fe1f575159a21d753b8d34c0cd7811099d9977"
+    sha256 = "e5aed501e127ab56b76941b453cc1290603cecdf3db1c72bcba140a3582c71d4"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.aarch64-linux-musl-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "cc7972d17ca762c59d2a57dcefbfa878d78c5d75"
+git-tree-sha1 = "c5f575283b885888c2868c971e2694afec75dc1c"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "e32a170c8dfb0f9d46478addad8b211cf24601c03962366b55a707595936ac46"
+    sha256 = "7bedb8d6dbaa2516ba32afade75e1d7d3b053ee91bee31b17b651f361a208dd2"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv6l-linux-gnueabihf-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "41d4345bc4b94e3a0f971fc36e70459d3bb95fca"
+git-tree-sha1 = "bdf33b296da67cbf6c2c30246dbc2fb7e1f4d18e"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "ab63596ccb6241584b4693f825f453388b9891803f71e86fac69f2d7f857c045"
+    sha256 = "c24079826bb4eba4d0519d39db5da306dc0273ed271ef3076ae754e8049f7b34"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "3336777f7cb198e9b6919e7734172f34d8305d22"
+git-tree-sha1 = "2990b5f172274f45c3df17fb073936566690e35d"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "6987939bfe7c644bd61d4ec747aa8b302396942728beb16bab782886c42fef8f"
+    sha256 = "03c2d08814b3f52e7b2698d57e8f7ec494a44b93728c5a062eb18b8d17664b2e"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv6l-linux-musleabihf-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8f8247fc918e8f0b95d9fb8ff1b09c6a91a50000"
+git-tree-sha1 = "3114a0f082aae8e3c2b68f3a8197884793f9583a"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "208780698dba1cdb0746c8937dfd6dcad16ada6bbcbcd2447d9d32d0158daa2c"
+    sha256 = "d3c65bcfde3d43d4f6924b6d6c4bd649d976def00b291da6352ff64b0c1950cd"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "576b4a11c69e62bb56a765f77d17028ef83b43bd"
+git-tree-sha1 = "e67614d53a3cc774f66226b3ff4137c9a568b8ff"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "66c97b610f1c51a51cf36387e2edf6dab8703fe2a6cdb00e3fa8192de1e3c787"
+    sha256 = "5cd3d787d38463bb2594e9922889b92872f0a479f95fc16fdffad9fe28c08a9a"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv7l-linux-gnueabihf-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "159bb31b4dbfc01eb1af4af19460348f3027ae39"
+git-tree-sha1 = "394b5dd5bf78399b9e63325b5d1b1b39c3bc2323"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "2647b1d89dfce7366e6933db71e39d62aa69aee50687731414e1531d10ec95d1"
+    sha256 = "6ca924e00902cbcbf2256b6d41484dfb8ddc9687be741875de78818235e987b5"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f10eca6d350cdfeb0f0193e919ff8a6a3f3889a1"
+git-tree-sha1 = "2945a24a1f29bc39a6598f62ef20ece8296aa7db"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "2bbcf9888086267c50125c1ef0e6f213050a7fe5b2676c28a1418ead1a18cdae"
+    sha256 = "4be86569d91d688f693fd50137da8adb2d1eaec4db5d6a998901378baa0772c3"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv7l-linux-musleabihf-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4c084bce89481596d519a85e2e27423f6bfb628c"
+git-tree-sha1 = "0fabb0f18392ef81d665946f0a020996a7afb4af"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "47c2bc0ef829d08dadf1e86ad71dd137fd6ef55fc55a4d5c5e2fbc32ab9084b9"
+    sha256 = "3a5f407791ec110cc4961ca43604b7aa08dcc926af2ca56e985875c0785afdcc"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "99fee7124f9a70be55bf162c4e8085591b77547e"
+git-tree-sha1 = "aa35f414084e3f16398812bfdf7cd607b6bf0acb"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "51aef7ea9622b981515f3bb3d3202b25d1e7d4e15f7a52b35226d87ed90abab1"
+    sha256 = "9bf8596f6519d6e26e44b5373b7039d2f42baf981e01c0d53bc01c5f80879927"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-linux-gnu-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "ad2c91689b9b6ae91ecf38ce00e3c01b5796a625"
+git-tree-sha1 = "84d85a1ef40309da0faa584c608d9541091536b5"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "aa7d58636edbc9f418c70139f6c98f363340cc5a751c6e7a45949130f78c58c5"
+    sha256 = "05d1eff20db0ef5ba522983b85c032eb733d6670cee5af639155dfa711df72ec"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-linux-gnu-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "850cd8ea0cb37e3e96b1be554b583fd5d91deb4c"
+git-tree-sha1 = "86e94861a577c0be520850550227650c2e27ff88"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "cf3f1dfb26e5dd85a4bd6e9f6823db35bc5c303c6d75273f51b84974fb7d7f25"
+    sha256 = "820bc685fbe0b648cf0774df50974a64e9b864b4b90038717c10cecf3421f05d"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-linux-musl-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "611b4aaf216bba4fe6cef5c8824f10a1665fbb8d"
+git-tree-sha1 = "bf3c52b11fd7d005796991f8b5923dd70137e564"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "98e7fd29f97e143a8294e7e5e810bb7ee87179d1917a42b0ae4eeb2594d41e5c"
+    sha256 = "f1c6d91e90db6e1f76799b35d0c57863887b1dc29deda17bde611ed46f4a2bbb"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-linux-musl-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "c1c6a280e7ede52b132d1ca19aa8d712e0d9d9d1"
+git-tree-sha1 = "6e9d011c9e4e72e28d2167e3563f94569cc25aab"
 os = "windows"
 
     [[OpenImageIO.download]]
-    sha256 = "bb42ca44e114c3fa1ebbe2138c7113b7c05008cad8495527db4767d946ce8b5c"
+    sha256 = "f84bcfe5e5b56f684a8564243a7d33b1c3e91ba55454f1ff777bb16891f31888"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-w64-mingw32-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "88552cf5d772c42973d61f69dfe617788a7fb330"
+git-tree-sha1 = "04d53308455be87b8a20e28377faed037874ae83"
 os = "windows"
 
     [[OpenImageIO.download]]
-    sha256 = "a683e3022186d1c00bdd44058238f3dca1b31284ebc3bbc7bcdf98590579652d"
+    sha256 = "4638cca67729dc66285eb6d23caec8c0ccf8f0042fb364f11acdaffcee378887"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.i686-w64-mingw32-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "52adc5459f010449f3ec46bb5eaebd3e1e4096be"
+git-tree-sha1 = "cabe5a57a4430046fd5e2bc32224d5b00904f33e"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "61045b25d6014d84a46a5ef2a85ee778998d13088f797c9872dfb6003f43503b"
+    sha256 = "beba07d36543832a853c580f6a1ecd3f8b3020c6f9c287d5031d463f63be8516"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.powerpc64le-linux-gnu-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "42512089d4e7b69083481619a2423ecfbb285e1b"
+git-tree-sha1 = "c7425b6075b61cfa89ab36b8211bc388308cb7d1"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "2835327cbcb59c87d7a413feb619bb838846408411623f035dee4644d234c39d"
+    sha256 = "349ca11ca4617aab4071a8950f7cb6eb52e5356730b475dc0e0840730c4380b7"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
-git-tree-sha1 = "18e7e651eab51958338146b48fee8cd708d1b204"
+git-tree-sha1 = "6a78c1ce55ca2c1b4fb128fd103a15dc4274554c"
 os = "macos"
 
     [[OpenImageIO.download]]
-    sha256 = "e947105453c47fac0e4d0529fc79078fd35f99236a3598ff246dcc28f81d4cd4"
+    sha256 = "5dcd96e5fc28075dcf9111e2973c562ce3453725b8a89bb5e110b92ccf749b16"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-apple-darwin.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "a58df87ec23ec906657ae71639f6e01c55005c70"
+git-tree-sha1 = "1cdd98906f5b19bcf2ddf80cca9b280df128c5a4"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "9d49b41bb2376b9b31cd9059cc6b25a44023ead8276172bb0c3b688c493ce853"
+    sha256 = "d50952e22326e6f6f37506ed91b12fd6c42b06c55cfe4314f811affd804af684"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-linux-gnu-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8f55be25229ef1ba70557ab39e355366b5b69747"
+git-tree-sha1 = "0a0cd1da29fc68200184edb9738a7ab2a16642f5"
 libc = "glibc"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "933b51aa5b15f7f0423dada61e5f9c5b8962cf9f280fa4cdb71557b8308034e5"
+    sha256 = "d3c89a37d8dffe2086373e26ec7013ba326aa7948e804c4b864d1d67ed25e8da"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-linux-gnu-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "f599592bce5bde25c79e7a4a0840fae87847e506"
+git-tree-sha1 = "1c9ad6f6a4d2be5aa6b0ab45072e14904ca416c3"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "8512520b187edefcaa1ed35ee4e52af80800a9f9fedac14d0c77de2b0b1d59f2"
+    sha256 = "2f3b3b09726d921e73a5f7bcf45842b95884f9ff7f095aff17c42124f3abf405"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-linux-musl-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "7accd11ae4350bad27efb0e9e3fbabee300df487"
+git-tree-sha1 = "92b6a5a7a6fbc507803c0f20d0738a542b425f0d"
 libc = "musl"
 os = "linux"
 
     [[OpenImageIO.download]]
-    sha256 = "0cd9d82561b3d6d9a8c3b5a65e469c232f15c74c734111ad0405a055547d5acc"
+    sha256 = "8dbbba4e2b515672d3eb5742366cbc5d62ee6328a204bb371f6f8530fadea6d0"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-linux-musl-cxx11.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
-git-tree-sha1 = "8042c9b3523470cfd0735569202f40004fbd1138"
+git-tree-sha1 = "b81f2fa03bc4dd72a24374a96b7e913551e3b0ba"
 os = "freebsd"
 
     [[OpenImageIO.download]]
-    sha256 = "2236beafb6fc739618e497387a769a347f597386d44b5288b5f8e1e84a5b2384"
+    sha256 = "93df7f1325aa655a3364336a756057b98b723cb14e422dfc46eeed96e9affbe2"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-unknown-freebsd.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx03"
-git-tree-sha1 = "6d5deb48982aa2357243e2e9d4b1a1074ea8e9c8"
+git-tree-sha1 = "7c02669f6c9e8821d6fb00d19eb8b185a07268eb"
 os = "windows"
 
     [[OpenImageIO.download]]
-    sha256 = "fbda5c8e99cee9dfdfb5bbf0c34eba1c47af663a00e6f412ef3395f0672affaf"
+    sha256 = "d3950b2f72e8ecdc240be4b669aa5d26e8f76a5ac3f74cd65fd34415b58ef3d4"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-w64-mingw32-cxx03.tar.gz"
 [[OpenImageIO]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b6cfec4c0d44bf1905a83da02935b1cda8ed34b3"
+git-tree-sha1 = "14efd923993d9961aa93b31f709c5b8dc4dd6fed"
 os = "windows"
 
     [[OpenImageIO.download]]
-    sha256 = "40c49abcb2b2e7059e1773b58ecd93aceca5288adf13be32745516d5c5a4e640"
+    sha256 = "cb67db87337153c172d9c1d81197aa6da78936a87fabfadace92573ba6820df6"
     url = "https://github.com/JuliaBinaryWrappers/OpenImageIO_jll.jl/releases/download/OpenImageIO-v2.5.11+0/OpenImageIO.v2.5.11.x86_64-w64-mingw32-cxx11.tar.gz"
