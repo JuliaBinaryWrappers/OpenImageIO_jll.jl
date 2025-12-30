@@ -6,6 +6,7 @@ using FreeType2_jll
 using Giflib_jll
 using JpegTurbo_jll
 using Libtiff_jll
+using OpenColorIO_jll
 using OpenEXR_jll
 using OpenJpeg_jll
 using Zlib_jll
@@ -14,8 +15,8 @@ using libpng_jll
 using libwebp_jll
 using pugixml_jll
 JLLWrappers.@generate_wrapper_header("OpenImageIO")
-JLLWrappers.@declare_library_product(libOpenImageIO, "libOpenImageIO.so.2.5")
-JLLWrappers.@declare_library_product(libOpenImageIO_Util, "libOpenImageIO_Util.so.2.5")
+JLLWrappers.@declare_library_product(libOpenImageIO, "libOpenImageIO.so.3.1")
+JLLWrappers.@declare_library_product(libOpenImageIO_Util, "libOpenImageIO_Util.so.3.1")
 JLLWrappers.@declare_executable_product(iconvert)
 JLLWrappers.@declare_executable_product(idiff)
 JLLWrappers.@declare_executable_product(igrep)
@@ -24,7 +25,7 @@ JLLWrappers.@declare_executable_product(maketx)
 JLLWrappers.@declare_executable_product(oiiotool)
 JLLWrappers.@declare_executable_product(testtex)
 function __init__()
-    JLLWrappers.@generate_init_header(FFMPEG_jll, FreeType2_jll, Giflib_jll, JpegTurbo_jll, Libtiff_jll, OpenEXR_jll, OpenJpeg_jll, Zlib_jll, boost_jll, libpng_jll, libwebp_jll, pugixml_jll)
+    JLLWrappers.@generate_init_header(FFMPEG_jll, FreeType2_jll, Giflib_jll, JpegTurbo_jll, Libtiff_jll, OpenColorIO_jll, OpenEXR_jll, OpenJpeg_jll, Zlib_jll, boost_jll, libpng_jll, libwebp_jll, pugixml_jll)
     JLLWrappers.@init_library_product(
         libOpenImageIO,
         "lib/libOpenImageIO.so",

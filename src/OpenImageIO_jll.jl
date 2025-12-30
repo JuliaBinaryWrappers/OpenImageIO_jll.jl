@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("OpenImageIO")
-JLLWrappers.@generate_main_file("OpenImageIO", UUID("fd470f6e-6842-5666-8cbd-b5630dfbbd08"))
+JLLWrappers.@generate_main_file("OpenImageIO", Base.UUID("fd470f6e-6842-5666-8cbd-b5630dfbbd08"))
 end  # module OpenImageIO_jll
