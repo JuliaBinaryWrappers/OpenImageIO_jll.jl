@@ -15,8 +15,6 @@ using libpng_jll
 using libwebp_jll
 using pugixml_jll
 JLLWrappers.@generate_wrapper_header("OpenImageIO")
-JLLWrappers.@declare_library_product(libOpenImageIO, "libOpenImageIO.dll")
-JLLWrappers.@declare_library_product(libOpenImageIO_Util, "libOpenImageIO_Util.dll")
 JLLWrappers.@declare_executable_product(iconvert)
 JLLWrappers.@declare_executable_product(idiff)
 JLLWrappers.@declare_executable_product(igrep)
@@ -24,20 +22,10 @@ JLLWrappers.@declare_executable_product(iinfo)
 JLLWrappers.@declare_executable_product(maketx)
 JLLWrappers.@declare_executable_product(oiiotool)
 JLLWrappers.@declare_executable_product(testtex)
+JLLWrappers.@declare_library_product(libOpenImageIO, "libOpenImageIO.dll")
+JLLWrappers.@declare_library_product(libOpenImageIO_Util, "libOpenImageIO_Util.dll")
 function __init__()
     JLLWrappers.@generate_init_header(FFMPEG_jll, FreeType2_jll, Giflib_jll, JpegTurbo_jll, Libtiff_jll, OpenColorIO_jll, OpenEXR_jll, OpenJpeg_jll, Zlib_jll, boost_jll, libpng_jll, libwebp_jll, pugixml_jll)
-    JLLWrappers.@init_library_product(
-        libOpenImageIO,
-        "bin\\libOpenImageIO.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libOpenImageIO_Util,
-        "bin\\libOpenImageIO_Util.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
     JLLWrappers.@init_executable_product(
         iconvert,
         "bin\\iconvert.exe",
@@ -71,6 +59,18 @@ function __init__()
     JLLWrappers.@init_executable_product(
         testtex,
         "bin\\testtex.exe",
+    )
+
+    JLLWrappers.@init_library_product(
+        libOpenImageIO,
+        "bin\\libOpenImageIO.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libOpenImageIO_Util,
+        "bin\\libOpenImageIO_Util.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
